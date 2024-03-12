@@ -1,10 +1,3 @@
-//
-//  Hand.h
-//  Blackjack 
-//
-//  Created by Howard Stahl on 6/6/23.
-//
-
 #ifndef HAND_H
 #define HAND_H
 
@@ -14,10 +7,7 @@
 namespace cs32
 {
 
-// this class represents an opening blackjack player hand of
-// two cards
-// although this class builds and runs, various TODO operations
-// need to be completed by CS 32 students
+// this class represents an opening blackjack player hand of two cards
 class Hand
 {
 public:
@@ -34,6 +24,7 @@ public:
     bool isPair() const;
     // is this hand made up of atleast one Ace?
     bool isSoft() const;
+
 private:
     // the data members of each Hand class
     Card mCard1, mCard2;
