@@ -6,7 +6,7 @@
 
 namespace cs32
 {
-
+ 
 // this class represents an opening blackjack player hand of two cards
 class Hand
 {
